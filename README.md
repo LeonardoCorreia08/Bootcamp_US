@@ -62,14 +62,23 @@ Siga os passos abaixo para configurar o ambiente e executar o pipeline completo 
 ## 🔬 Etapas Técnicas do Projeto
 
 ### 1. Análise Exploratória de Dados (EDA)
--   Análise da distribuição das variáveis numéricas e categóricas.
--   Identificação do forte desbalanceamento de classes (poucas falhas em relação ao total).
--   Estudo da correlação entre os dados dos sensores e a ocorrência de falhas.
 
-### 2. Preparação dos Dados
--   Limpeza de dados, tratando valores ausentes e inconsistentes.
--   Engenharia de features para criar variáveis mais informativas.
--   Balanceamento do conjunto de dados de treino com a técnica **SMOTE** (Synthetic Minority Over-sampling Technique) para lidar com o desbalanceamento de classes.
+A primeira etapa consistiu em entender a fundo os dados. A análise revelou duas características principais: a forte correlação entre algumas variáveis de processo e, mais importante, o grande desbalanceamento entre as classes (poucos registros de falha).
+
+![Correlação entre Sensores](assets/correlacoes.png)
+*<p align="center">Mapa de calor mostrando a correlação entre as variáveis numéricas.</p>*
+
+![Distribuição de Falhas](assets/Distribuição de Falhas da Máquina por Tipo.png)
+*<p align="center">Gráfico evidenciando o desbalanceamento de classes: há muito mais registros de "não falha" (0) do que de "falha" (1).</p>*
+
+### 2. Modelagem e Comparação de Desempenho
+
+Foram treinados e avaliados três modelos de classificação distintos: Árvore de Decisão, Bagging e Random Forest. A performance foi medida com foco principal no **F1-Score** devido ao desbalanceamento dos dados.
+
+O modelo **Random Forest** apresentou a melhor performance geral, como mostra a tabela de resultados.
+
+![Tabela de Resultados](assets-tabela-1-f04c2866-468b-4c2a-872a-bce1d63816e6.png)
+*<p align="center">Tabela comparativa com as métricas de desempenho para cada modelo testado.</p>*
 
 ### 3. Modelagem e Resultados
 Foram testados diferentes algoritmos de classificação, com os modelos de *ensemble* apresentando os melhores resultados. A performance foi avaliada com foco no **F1-Score** devido ao desbalanceamento dos dados.
@@ -80,7 +89,26 @@ Foram testados diferentes algoritmos de classificação, com os modelos de *ense
 | 🧩 Bagging      | 0.9722           |
 | 🌳 Decision Tree| 0.9582           |
 
+#### Performance Detalhada
+
+O relatório de classificação abaixo mostra que o modelo alcançou um **Recall de 0.93** para a classe "Falha", indicando que ele foi capaz de identificar corretamente 93% de todas as falhas reais. O **F1-Score de 0.98** demonstra um excelente equilíbrio entre precisão e recall.
+
+![Relatório de Classificação - Random Forest](assets/tabela 4.png)
+*<p align="center">Relatório de Classificação detalhado para o modelo Random Forest.</p>*
+
+A **Matriz de Confusão** confirma visualmente a baixa quantidade de erros, especialmente os Falsos Negativos (casos em que uma falha real não foi detectada), que são o tipo de erro mais crítico a ser evitado.
+
+![Matriz de Confusão - Random Forest](assets/rd matrix.png)
+*<p align="center">Matriz de Confusão para o conjunto de teste.</p>*
+
 O **Random Forest** foi selecionado como o modelo final por apresentar o melhor equilíbrio entre as métricas e sua robustez. As variáveis mais importantes para a previsão do modelo foram **Torque**, **Desgaste da Ferramenta** e a **Diferença de Temperatura** entre o processo e o ar.
+
+#### Interpretabilidade do Modelo
+
+A análise de **importância das features** revela que **Torque**, **desgaste da ferramenta** e **velocidade rotacional** foram os fatores mais decisivos para o modelo prever uma falha.
+
+![Importância das Features - Random Forest](assets/fi rf.png)
+*<p align="center">As 10 variáveis mais importantes segundo o modelo Random Forest.</p>*
 
 ---
 
