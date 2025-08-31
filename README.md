@@ -93,7 +93,7 @@ Foram testados diferentes algoritmos de classificação, com os modelos de *ense
 
 O relatório de classificação abaixo mostra que o modelo alcançou um **Recall de 0.93** para a classe "Falha", indicando que ele foi capaz de identificar corretamente 93% de todas as falhas reais. O **F1-Score de 0.98** demonstra um excelente equilíbrio entre precisão e recall.
 
-![Relatório de Classificação - Random Forest](assets/tabela_4.png)
+![Relatório de Classificação - Random Forest](assets/f1.png)
 *<p align="center">Relatório de Classificação detalhado para o modelo Random Forest.</p>*
 
 A **Matriz de Confusão** confirma visualmente a baixa quantidade de erros, especialmente os Falsos Negativos (casos em que uma falha real não foi detectada), que são o tipo de erro mais crítico a ser evitado.
