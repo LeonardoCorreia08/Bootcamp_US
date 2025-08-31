@@ -19,7 +19,7 @@ Empresas industriais enfrentam custos elevados com manutenção corretiva e para
 
 O código é organizado de forma modular para garantir clareza, manutenibilidade e escalabilidade.
 
-
+![Estrutura do Projeto](assets/estrutura.PNG)
 ---
 
 ## 🚀 Como Executar o Projeto
