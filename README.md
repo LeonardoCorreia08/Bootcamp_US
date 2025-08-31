@@ -68,7 +68,7 @@ A primeira etapa consistiu em entender a fundo os dados. A análise revelou duas
 ![Correlação entre Sensores](assets/correlacoes.png)
 *<p align="center">Mapa de calor mostrando a correlação entre as variáveis numéricas.</p>*
 
-![Distribuição de Falhas](assets/Distribuição_de_Falhas_da_Máquina_por_Tipo.png)
+![Distribuição de Falhas](assets/DistribuiçãodeFalhasdaMáquinaportipo.png)
 *<p align="center">Gráfico evidenciando o desbalanceamento de classes: há muito mais registros de "não falha" (0) do que de "falha" (1).</p>*
 
 ### 2. Modelagem e Comparação de Desempenho
