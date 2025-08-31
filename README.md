@@ -15,6 +15,23 @@ A manutenção preditiva, com apoio de **Machine Learning**, possibilita:
 - Melhor planejamento de manutenção preventiva  
 
 ---
+# Projeto de Manutenção Preditiva
+
+Estrutura de diretórios e arquivos do projeto:
+
+projeto_manutencao/
+├── data/
+│   └── bootcamp_train.csv
+├── models/
+│   └── (aqui serão salvos os modelos treinados, ex: random_forest.pkl)
+├── src/
+│   ├── __init__.py
+│   ├── preprocess.py
+│   ├── train.py
+│   ├── avaliar.py
+│   └── config.py
+├── app.py
+└── requisitos.txt
 
 ## 📂 Estrutura do Projeto
 
