@@ -107,7 +107,7 @@ O **Random Forest** foi selecionado como o modelo final por apresentar o melhor 
 
 A análise de **importância das features** revela que **Torque**, **desgaste da ferramenta** e **velocidade rotacional** foram os fatores mais decisivos para o modelo prever uma falha.
 
-![Importância das Features - Random Forest](assets/fi rf.png)
+![Importância das Features - Random Forest](assets/fi_rf.png)
 *<p align="center">As 10 variáveis mais importantes segundo o modelo Random Forest.</p>*
 
 ---
