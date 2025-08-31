@@ -77,7 +77,7 @@ Foram treinados e avaliados três modelos de classificação distintos: Árvore 
 
 O modelo **Random Forest** apresentou a melhor performance geral, como mostra a tabela de resultados.
 
-![Tabela de Resultados](assets-tabela-1-f04c2866-468b-4c2a-872a-bce1d63816e6.png)
+![Tabela de Resultados](assets/tabela-1.png)
 *<p align="center">Tabela comparativa com as métricas de desempenho para cada modelo testado.</p>*
 
 ### 3. Modelagem e Resultados
