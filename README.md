@@ -1,10 +1,10 @@
-# 🛠️ Manutenção Preditiva com Machine Learning
+# Manutenção Preditiva com Machine Learning
 
 Este projeto foi desenvolvido como parte do **Bootcamp de Ciência de Dados e IA**. O objetivo é construir um pipeline de ponta a ponta para prever **falhas em máquinas industriais** a partir de dados de sensores, permitindo a atuação proativa da equipe de manutenção.
 
 ---
 
-## 📊 Contexto do Negócio
+## Contexto do Negócio
 
 Empresas industriais enfrentam custos elevados com manutenção corretiva e paradas inesperadas de produção. A manutenção preditiva, com o apoio de **Machine Learning**, surge como uma solução estratégica para:
 
@@ -15,14 +15,14 @@ Empresas industriais enfrentam custos elevados com manutenção corretiva e para
 
 ---
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 O código é organizado de forma modular para garantir clareza, manutenibilidade e escalabilidade.
 
 ![Estrutura do Projeto](assets/estrutura.PNG)
 ---
 
-## 🚀 Como Executar o Projeto
+## Como Executar o Projeto
 
 Siga os passos abaixo para configurar o ambiente e executar o pipeline completo de treinamento e avaliação.
 
@@ -59,7 +59,7 @@ Siga os passos abaixo para configurar o ambiente e executar o pipeline completo 
 
 ---
 
-## 🔬 Etapas Técnicas do Projeto
+## Etapas Técnicas do Projeto
 
 ### 1. Análise Exploratória de Dados (EDA)
 
