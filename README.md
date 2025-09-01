@@ -45,15 +45,15 @@ Siga os passos abaixo para configurar o ambiente e executar o pipeline completo 
     ```
 
 2.  **Instale as Dependências**
-    O arquivo `requirements.txt` contém todas as bibliotecas necessárias.
+    O arquivo `requirement.txt` contém todas as bibliotecas necessárias.
     ```bash
-    pip install -r requirements.txt
+    pip install -r requirement.txt
     ```
 
 3.  **Execute o Pipeline Principal**
-    O script `app.py` orquestra todas as etapas: carrega os dados, pré-processa, treina o modelo, avalia e salva o artefato final na pasta `models/`.
+    O script `main.py` orquestra todas as etapas: carrega os dados, pré-processa, treina o modelo, avalia e salva o artefato final na pasta `models/`.
     ```bash
-    python app.py
+    python main.py
     ```
     Ao final da execução, um relatório de performance e uma matriz de confusão serão exibidos no terminal.
 
