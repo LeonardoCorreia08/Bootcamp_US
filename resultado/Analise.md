@@ -12,7 +12,7 @@ Foi observado que algumas variáveis apresentam **forte correlação**, especial
 - Torque e Velocidade Rotacional possuem alta dependência.  
 - Potência Mecânica também acompanha essas variáveis, reforçando sua relevância no processo.  
 
-![Correlação entre Sensores](..assets/correlacoes.png)  
+![Correlação entre Sensores](../assets/correlacoes.png)  
 *<p align="center">Mapa de calor destacando as correlações entre variáveis numéricas.</p>*  
 
 ---
@@ -25,7 +25,7 @@ A classe **"sem falha" (0)** representa a grande maioria dos registros, enquanto
 - Isso torna a modelagem mais desafiadora, pois modelos ingênuos tenderiam a prever apenas a classe majoritária.  
 - Estratégias de **balanceamento** (como oversampling/undersampling ou ajustes de peso nas classes) se tornam necessárias para evitar viés.  
 
-![Distribuição de Falhas](assets/DistribuiçãodeFalhasdaMáquinaportipo.png)  
+![Distribuição de Falhas](../assets/DistribuiçãodeFalhasdaMáquinaportipo.png)  
 *<p align="center">Distribuição de classes: predominância de registros "sem falha".</p>*  
 
 ---
@@ -38,7 +38,7 @@ Devido ao desbalanceamento, o **F1-Score** foi escolhido como métrica principal
 
 O modelo **Random Forest** apresentou o melhor desempenho geral, conforme ilustrado abaixo:  
 
-![Tabela de Resultados](assets/rf_precision_recall.png)  
+![Tabela de Resultados](../assets/rf_precision_recall.png)  
 *<p align="center">Comparativo de métricas entre os modelos avaliados.</p>*  
 
 | Modelo           | F1-Score (Falha) |
@@ -55,10 +55,10 @@ O modelo **Random Forest** apresentou o melhor desempenho geral, conforme ilustr
 - **F1-Score geral: 0.98** → excelente equilíbrio entre precisão e recall.  
 - **Baixa taxa de Falsos Negativos**, reduzindo riscos de falhas não previstas.  
 
-![Relatório de Classificação - Random Forest](assets/f1.png)  
+![Relatório de Classificação - Random Forest](../assets/f1.png)  
 *<p align="center">Relatório de classificação detalhado.</p>*  
 
-![Matriz de Confusão - Random Forest](assets/rd_matrix.png)  
+![Matriz de Confusão - Random Forest](../assets/rd_matrix.png)  
 *<p align="center">Matriz de confusão para o conjunto de teste.</p>*  
 
 O **Random Forest** foi escolhido como modelo final por apresentar o melhor equilíbrio entre desempenho, robustez e interpretabilidade.  
@@ -73,7 +73,7 @@ A análise de **importância das variáveis** revelou que fatores **mecânicos e
 - **Impacto moderado**: Diferença de Temperatura entre processo e ar.  
 - **Menor impacto**: Variáveis ambientais (Temperatura do Ar, Umidade Relativa).  
 
-![Importância das Features - Random Forest](assets/fi_rf.png)  
+![Importância das Features - Random Forest](../assets/fi_rf.png)  
 *<p align="center">Top 10 variáveis mais relevantes para o Random Forest.</p>*  
 
 
@@ -103,6 +103,7 @@ Sua implementação prática pode gerar impacto significativo, como:
 ---
 
 📌 Essa análise inicial guiou a modelagem, ajudando a priorizar variáveis e selecionar métricas adequadas para o problema de manutenção preditiva.
+
 
 
 
