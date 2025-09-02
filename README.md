@@ -168,4 +168,18 @@ http://localhost:8501
 - **Persistência de Modelos**: Joblib, Pickle  
 - **APIs e Deploy**: FastAPI, Uvicorn  
 - **Dashboard**: Streamlit  
-- **Ambiente e Automação**: Docker, GitHub Actions 
+- **Ambiente e Automação**: Docker, GitHub Actions
+
+
+
+## 📌 Versão
+
+v1.0
+
+## 📄 Licença
+
+Este projeto está sob licença
+
+<a>
+<div align="right">Desenvolvido por Leonardo Correia </a>.</div>
+ </a>
