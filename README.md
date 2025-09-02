@@ -23,7 +23,7 @@ A manutenção preditiva, apoiada por **Machine Learning**, surge como solução
 - [🔧 Ferramentas](#-ferramentas)  
 - [⚡ Pipeline Principal](#️-executar-o-pipeline-principal)  
 - [📉 Percurso Analítico](#-percurso-analítico)  
-- [✅ Conclusões e Próximos Passos](#-conclusões-e-próximos-passos)  
+  
 
 ---
 
