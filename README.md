@@ -121,13 +121,13 @@ QUICK-START-Windows.bat
 
 Este dashboard em **Streamlit** permite visualizar e interagir com o modelo de **Manutenção Preditiva**, aplicando predições e exibindo métricas de desempenho.
 ---
-## Pré-requisitos
+### Pré-requisitos
 
 - Python **3.9 ou superior**
 - `pip` instalado
 - Dependências listadas no arquivo `requirements.txt`
 ---
-## Como Executar o Dashboard
+### Como Executar o Dashboard
 
 1. **Instale as Dependências**
 Se ainda não tiver instalado as bibliotecas necessárias:
@@ -140,14 +140,13 @@ Para iniciar o dashboard, basta rodar:
  ```
 streamlit run app.py
  ```
-3. Acesse no Navegador
+3. **Acesse no Navegador**
 Após iniciar, o Streamlit abrirá automaticamente em:
  ```
 http://localhost:8501
  ```
 
-
-#📉 Percurso Analítico
+# 📉 Percurso Analítico
 
 [Análise Exploratória](https://github.com/LeonardoCorreia08/Bootcamp_US/blob/main/resultado/Analise.md)
 
