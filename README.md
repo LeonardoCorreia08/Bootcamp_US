@@ -150,6 +150,15 @@ http://localhost:8501
  ```
 <img src="assets/streamlit.PNG" width="400">
 
+### 📊 Dashboard de Integração com API
+
+Este script (`dash.py`) conecta o modelo treinado à **API oficial do Bootcamp**, gerando predições no formato esperado e enviando para avaliação automática.
+---
+### Como Executar
+No terminal, rode:
+```bash
+python dash.py
+```
 
 # 📉 Percurso Analítico
 
