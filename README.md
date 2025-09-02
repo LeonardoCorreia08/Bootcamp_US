@@ -121,7 +121,8 @@ QUICK-START-Windows.bat
 
 [Análise Exploratória](https://github.com/LeonardoCorreia08/Bootcamp_US/blob/main/resultado/Analise.md)
 
-[Relatório](https://github.com/LeonardoCorreia08/Bootcamp_US/blob/main/resultado/relatorio_manutencao_preditiva.html)
+[Relatório](https://raw.githubusercontent.com/LeonardoCorreia08/Bootcamp_US/main/resultado/relatorio_manutencao_preditiva.html
+)
 ---
 
 
