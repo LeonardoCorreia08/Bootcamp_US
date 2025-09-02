@@ -46,11 +46,9 @@ Siga os passos abaixo para configurar o ambiente e executar o pipeline completo 
 
 - Python **3.9 ou superior**  
 - `pip` (gerenciador de pacotes do Python)  
-
 ---
 
 ## 📂 Clonar o Repositório
-
 
 ### A. Clona o repositório para uma pasta chamada "Bootcamp_US"
 ```bash
@@ -110,6 +108,16 @@ python main.py
 ✅ Isso garante que todas as etapas — configuração → pré-processamento → treino → avaliação → salvamento — sejam executadas em um único fluxo contínuo.
 
 ---
+
+### Docker
+Docker é uma plataforma de contêinerização que permite criar, implantar e executar aplicativos em contêineres. É amplamente utilizado para garantir que os ambientes de desenvolvimento e produção sejam consistentes.
+
+- **Principais Características**: Portabilidade, consistência de ambiente, isolamento de aplicativos.
+- **Casos de Uso**: Implantação de aplicações, isolamento de ambientes de desenvolvimento.
+- **Links**:
+- [Docker Official Site](https://www.docker.com/)
+- [Docker Documentation](https://docs.docker.com/)
+
 
 # Percurso Analítico
 
