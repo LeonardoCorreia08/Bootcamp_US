@@ -72,8 +72,8 @@ if not exist "docker-compose.yml" (
     set missing_files=1
 )
 
-if not exist "requirements.txt" (
-    echo ❌ requirements.txt não encontrado
+if not exist "requirement.txt" (
+    echo ❌ requirement.txt não encontrado
     set missing_files=1
 )
 
@@ -176,4 +176,5 @@ echo    scripts\docker-commands.bat [comando]
 echo    ou
 echo    .\scripts\docker-commands.ps1 [comando]
 echo.
+
 pause
