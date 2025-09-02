@@ -121,6 +121,8 @@ QUICK-START-Windows.bat
 
 [Análise Exploratória](https://github.com/LeonardoCorreia08/Bootcamp_US/blob/main/resultado/Analise.md)
 
+[Data Storytelling](https://github.com/LeonardoCorreia08/Bootcamp_US/blob/main/resultado/Data%20Storytelling.pdf)
+
 [Relatório](https://github.com/LeonardoCorreia08/Bootcamp_US/blob/main/)
 
 
