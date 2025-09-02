@@ -111,22 +111,9 @@ python main.py
 
 ---
 
-# ⚠️ Percurso Analítico
+# Percurso Analítico
 
-### . 🔍 Análise Exploratória de Dados (EDA)
-
-O primeiro passo foi compreender a fundo os dados disponíveis.  
-A análise revelou duas características principais:  
-
-- **Forte correlação** entre algumas variáveis mecânicas (ex.: torque ↔ rotação).  
-- **Desbalanceamento acentuado** entre classes, com predominância de registros de "não falha".  
-
-![Correlação entre Sensores](assets/correlacoes.png)  
-*<p align="center">Mapa de calor mostrando a correlação entre variáveis numéricas.</p>*  
-
-![Distribuição de Falhas](assets/DistribuiçãodeFalhasdaMáquinaportipo.png)  
-*<p align="center">Distribuição desbalanceada das classes: muito mais registros de "não falha" (0) do que de "falha" (1).</p>*  
-
+[Análise Exploratória](https://github.com/LeonardoCorreia08/Bootcamp_US/blob/main/resultado/Analise.md)
 ---
 
 ###  ⚖️ Modelagem e Comparação de Desempenho
