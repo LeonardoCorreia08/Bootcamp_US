@@ -82,12 +82,11 @@ pip install -r requirement.txt
 ```
 ### Inicializar o Projeto
 
-Se estiver utilizando Windows, você pode inicializar rapidamente com o script:
-```
-QUICK-START-Windows.bat
+📌 Para rodar o pipeline completo, basta executar:
+```bash
+python main.py
 ```
 ✅ Pronto! O ambiente estará configurado e o projeto inicializado corretamente.
-
 
 ### Executar o Pipeline Principal
 
@@ -100,11 +99,6 @@ Ao executá-lo, as seguintes etapas são realizadas automaticamente, de forma se
 4. **Avaliação** – Cálculo das métricas de performance (Accuracy, F1, etc.) e geração de relatórios.  
 5. **Persistência** – Salvamento do modelo final em `models/` para uso futuro (API, dashboards, etc.).
 
-📌 Para rodar o pipeline completo, basta executar:
-
-```bash
-python main.py
-```
 ✅ Isso garante que todas as etapas — configuração → pré-processamento → treino → avaliação → salvamento — sejam executadas em um único fluxo contínuo.
 
 ---
@@ -118,56 +112,18 @@ Docker é uma plataforma de contêinerização que permite criar, implantar e ex
 - [Docker Official Site](https://www.docker.com/)
 - [Docker Documentation](https://docs.docker.com/)
 
+Se estiver utilizando Windows, você pode inicializar rapidamente com o script:
+```
+QUICK-START-Windows.bat
+```
 
 # Percurso Analítico
 
 [Análise Exploratória](https://github.com/LeonardoCorreia08/Bootcamp_US/blob/main/resultado/Analise.md)
+
+[Relatório](https://github.com/LeonardoCorreia08/Bootcamp_US/blob/main/resultado/relatorio_manutencao_preditiva.html)
 ---
 
-###  ⚖️ Modelagem e Comparação de Desempenho
-
-Três algoritmos de classificação foram testados: **Árvore de Decisão, Bagging e Random Forest**.  
-Devido ao desbalanceamento, o **F1-Score** foi escolhido como métrica principal de avaliação.  
-
-O modelo **Random Forest** apresentou o melhor desempenho geral, conforme ilustrado abaixo:  
-
-![Tabela de Resultados](assets/rf_precision_recall.png)  
-*<p align="center">Comparativo de métricas entre os modelos avaliados.</p>*  
-
-| Modelo           | F1-Score (Falha) |
-|------------------|------------------|
-| 🌲 Random Forest | **0.9775**       |
-| 🧩 Bagging       | 0.9722           |
-| 🌳 Decision Tree | 0.9582           |
-
----
-
-### 📊 Performance Detalhada do Modelo Campeão – Random Forest
-
-- **Recall (Falha): 0.93** → o modelo identificou 93% das falhas reais.  
-- **F1-Score geral: 0.98** → excelente equilíbrio entre precisão e recall.  
-- **Baixa taxa de Falsos Negativos**, reduzindo riscos de falhas não previstas.  
-
-![Relatório de Classificação - Random Forest](assets/f1.png)  
-*<p align="center">Relatório de classificação detalhado.</p>*  
-
-![Matriz de Confusão - Random Forest](assets/rd_matrix.png)  
-*<p align="center">Matriz de confusão para o conjunto de teste.</p>*  
-
-O **Random Forest** foi escolhido como modelo final por apresentar o melhor equilíbrio entre desempenho, robustez e interpretabilidade.  
-
----
-
-### 🔎 Interpretabilidade do Modelo
-
-A análise de **importância das variáveis** revelou que fatores **mecânicos e operacionais** são os principais preditores de falha.  
-
-- **Mais relevantes**: Torque, Desgaste da Ferramenta, Velocidade Rotacional.  
-- **Impacto moderado**: Diferença de Temperatura entre processo e ar.  
-- **Menor impacto**: Variáveis ambientais (Temperatura do Ar, Umidade Relativa).  
-
-![Importância das Features - Random Forest](assets/fi_rf.png)  
-*<p align="center">Top 10 variáveis mais relevantes para o Random Forest.</p>*  
 
 ---
 
