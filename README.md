@@ -23,7 +23,7 @@ A manutenção preditiva, apoiada por **Machine Learning**, surge como solução
 - [🔧 Ferramentas](#-ferramentas)  
 - [⚡ Pipeline Principal](#️-executar-o-pipeline-principal)  
 - [📉 Percurso Analítico](#-percurso-analítico)  
-  
+  # Percurso Analítico
 
 ---
 
@@ -117,7 +117,7 @@ Se estiver utilizando Windows, você pode inicializar rapidamente com o script:
 QUICK-START-Windows.bat
 ```
 
-# Percurso Analítico
+#📉 Percurso Analítico
 
 [Análise Exploratória](https://github.com/LeonardoCorreia08/Bootcamp_US/blob/main/resultado/Analise.md)
 
@@ -127,14 +127,16 @@ QUICK-START-Windows.bat
 
 [Relatório](https://github.com/LeonardoCorreia08/Bootcamp_US/blob/main/)
 
-
-
 ---
-
+# 💻 Tecnologias Utilizadas
 ---
-
-## 💻 Tecnologias Utilizadas
 
 - **Linguagem**: Python  
-- **Bibliotecas**: Pandas, Numpy, Scikit-learn, Imbalanced-learn, Seaborn, Matplotlib  
+- **Manipulação e Análise de Dados**: Pandas, Numpy  
+- **Visualização de Dados**: Matplotlib, Seaborn  
+- **Machine Learning / Modelagem**: Scikit-learn, Imbalanced-learn  
 - **Análise Exploratória**: Ydata-profiling  
+- **Persistência de Modelos**: Joblib, Pickle  
+- **APIs e Deploy**: FastAPI, Uvicorn  
+- **Dashboard**: Streamlit  
+- **Ambiente e Automação**: Docker, GitHub Actions 
