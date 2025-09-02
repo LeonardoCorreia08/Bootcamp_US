@@ -82,9 +82,26 @@ A análise de **importância das variáveis** revelou que fatores **mecânicos e
 1. **Variáveis Mecânicas** (torque, rotação, potência) são as que mais se relacionam com possíveis falhas.  
 2. **Variáveis Ambientais** (temperatura do ar, umidade) apresentam impacto limitado, mas podem atuar como fatores secundários.  
 3. **Desbalanceamento de Classes** exige atenção especial na escolha de métricas (F1-Score, Recall) e técnicas de modelagem.  
-4. A base de dados mostra-se adequada para aplicação de **modelos supervisionados**, desde que o desbalanceamento seja tratado.  
+4. A base de dados mostra-se adequada para aplicação de **modelos supervisionados**, desde que o desbalanceamento seja tratado. 
+
+### ✅ Conclusões e Próximos Passos
+
+O modelo final se mostrou **altamente eficaz** na predição de falhas, atingindo um **F1-Score de 0.9775**.  
+Sua implementação prática pode gerar impacto significativo, como:  
+
+- 🚫 Redução de paradas não planejadas.  
+- ⚡ Maior confiabilidade e segurança operacional.  
+- 💰 Economia substancial em custos de manutenção.  
+
+### 🔮 Próximos Passos
+- 🌐 **Deploy do modelo** como API (FastAPI).  
+- 📊 Criação de **dashboard interativo** com Streamlit para monitoramento em tempo real.  
+- 🐳 Empacotamento com **Docker** para deploy em qualquer ambiente (cloud ou on-premise).
+- 
+ 
 
 ---
 
 📌 Essa análise inicial guiou a modelagem, ajudando a priorizar variáveis e selecionar métricas adequadas para o problema de manutenção preditiva.
+
 
