@@ -145,7 +145,7 @@ Após iniciar, o Streamlit abrirá automaticamente em:
  ```
 http://localhost:8501
  ```
-![streamlit](../assets/streamlit.PNG)
+<img src="assets/streamlit.PNG" width="400">
 
 
 # 📉 Percurso Analítico
