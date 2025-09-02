@@ -117,6 +117,9 @@ Se estiver utilizando Windows, você pode inicializar rapidamente com o script:
 QUICK-START-Windows.bat
 ```
 
+<img src="assets/docker.PNG" width="400">
+
+
 ### 📊 Dashboard de Manutenção Preditiva - Streamlit
 
 Este dashboard em **Streamlit** permite visualizar e interagir com o modelo de **Manutenção Preditiva**, aplicando predições e exibindo métricas de desempenho.
