@@ -123,6 +123,8 @@ QUICK-START-Windows.bat
 
 [Data Storytelling](https://github.com/LeonardoCorreia08/Bootcamp_US/blob/main/resultado/Data%20Storytelling.pdf)
 
+[Online](https://colab.research.google.com/drive/1gHTJ6rKk-_u5WLWe8Mzz09vRgxUXg1bO#scrollTo=6pXKiTte9kXx&uniqifier=1)
+
 [Relatório](https://github.com/LeonardoCorreia08/Bootcamp_US/blob/main/)
 
 
