@@ -12,7 +12,7 @@ Foi observado que algumas variáveis apresentam **forte correlação**, especial
 - Torque e Velocidade Rotacional possuem alta dependência.  
 - Potência Mecânica também acompanha essas variáveis, reforçando sua relevância no processo.  
 
-![Correlação entre Sensores](assets/correlacoes.png)  
+![Correlação entre Sensores](..assets/correlacoes.png)  
 *<p align="center">Mapa de calor destacando as correlações entre variáveis numéricas.</p>*  
 
 ---
@@ -103,5 +103,6 @@ Sua implementação prática pode gerar impacto significativo, como:
 ---
 
 📌 Essa análise inicial guiou a modelagem, ajudando a priorizar variáveis e selecionar métricas adequadas para o problema de manutenção preditiva.
+
 
 
